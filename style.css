@@ -64,3 +64,9 @@ body {
 .transition {
   transition: .7s;
 }
+@@media (max-pixel: 700px) {
+  body{
+    display: flex;
+    justify-content: center;
+  }
+}
