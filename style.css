@@ -55,15 +55,30 @@ body {
   bottom: -40px;
   font-size: 14pt;
 }
-#prev: hover
-{
-  color: red;
-}
+
+
 #prev {
   left: 0;
 }
+#prev:hover
+{
+   box-shadow: 0px 0px 0px 2.5px white
+   inset, 0px 0px 0px 5px;
+  color: red;
+}
+#next:hover
+{
+  color: red;
+  box-shadow: 0px 0px 0px 2.5px white
+  inset, 0px 0px 0px 5px;
+}
 #next {
   right: 0;
+}
+.btn:hover{
+  background-color: #811e8e;
+  box-shadow: 0px 0px 0px 2.5px white
+  inset, 0px 0px 0px 5px;
 }
 .transition {
   transition: .7s;
