@@ -6,6 +6,9 @@ body {
   font-family: 'Teko';
   letter-spacing: 0.15em;
 }
+h1{
+  font-family: 'Lobster', cursive;
+}
 
 .container {
   position: relative;
@@ -76,9 +79,12 @@ body {
   right: 0;
 }
 .btn:hover{
-  background-color: #811e8e;
-  box-shadow: 0px 0px 0px 2.5px white
-  inset, 0px 0px 0px 5px;
+  background-color: #3e8e41;
+  color: white;
+}
+.resetB:hover{
+  background-color: #3e8e41;
+  color: white;
 }
 .transition {
   transition: .7s;
