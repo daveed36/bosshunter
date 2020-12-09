@@ -35,6 +35,7 @@ h1{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 20%;
 }
 .slide#s1 {
   background: #00c8c8;
@@ -77,16 +78,27 @@ h1{
 #next {
   right: 0;
 }
+.btn{
+  height:30px;
+}
 .btn:hover{
   background-color: #3e8e41;
   color: white;
   cursor: pointer;
+}
+.resetB{
+  height:30px;
+
 }
 .resetB:hover{
   background-color: #3e8e41;
   color: white;
   cursor: pointer;
 }
+.userInput{
+  height: 30px;
+}
+
 .transition {
   transition: .7s;
 }

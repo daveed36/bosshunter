@@ -26,7 +26,21 @@ console.log(data);
 
            reformattedArray = arrayat.map(obj => {
 
-
+if(obj.first_name === null){
+  return 'Sorry no record'
+}
+if(obj.last_name === null){
+  return 'Sorry no record'
+}
+if(obj.value === null){
+  return 'Sorry no record'
+}
+if(obj.verification.date === null){
+  return 'Sorry no record'
+}
+if(obj.position === null){
+  return 'Sorry no record'
+}
               console.log(obj.first_name)
               console.log(obj.last_name)
 							console.log(obj.value);
@@ -35,7 +49,7 @@ console.log(data);
               const $fn = $('<div>').html('First Name :' + obj.first_name).appendTo('#s1')
               const $fnL = $('<div>').html('Last Name :' + obj.last_name).appendTo('#s2')
 							const $fnv = $('<div>').html('Email: ' + obj.value).appendTo('#s3')
-							const $fnP = $('<div>').html('Last date online :' + obj.verification.date).appendTo('#s4')
+							const $fnP = $('<div>').html('online date :' + obj.verification.date).appendTo('#s4')
 							const $fnT = $('<div>').html('Position :' + obj.position).appendTo('#s5')
 
 
