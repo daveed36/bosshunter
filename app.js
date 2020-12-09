@@ -33,10 +33,10 @@ console.log(data);
 
 
               const $fn = $('<div>').html('First Name :' + obj.first_name).appendTo('#s1')
-              const $fnL = $('<div>').html('Last Name :' + obj.last_name).appendTo('#s1')
-							const $fnv = $('<div>').html('Email Address: ' + obj.value).appendTo('#s1')
-							const $fnP = $('<div>').html('Last date online :' + obj.verification.date).appendTo('#s1')
-							const $fnT = $('<div>').html('Position :' + obj.position).appendTo('#s1')
+              const $fnL = $('<div>').html('Last Name :' + obj.last_name).appendTo('#s2')
+							const $fnv = $('<div>').html('Email: ' + obj.value).appendTo('#s3')
+							const $fnP = $('<div>').html('Last date online :' + obj.verification.date).appendTo('#s4')
+							const $fnT = $('<div>').html('Position :' + obj.position).appendTo('#s5')
 
 
 
