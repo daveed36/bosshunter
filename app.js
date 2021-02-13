@@ -14,7 +14,7 @@ $('userInput').empty()
     //network request with jQuery
     $.ajax({
       //make user input the query parameter
-      url: `https://api.hunter.io/v2/domain-search?domain=${userInput}&api_key=ce559ef10b7dddc1e3b51fb2b79f02722bde3d1`,5
+      url: `https://api.hunter.io/v2/domain-search?domain=${userInput}&api_key=ce559ef10b7dddc1e3b51fb2b79f02722bde3d15`,
 
     }).then(
       (data) => {
